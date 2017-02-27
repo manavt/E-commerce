@@ -2,7 +2,7 @@ class SendEmailsMailer < ApplicationMailer
 
   def welcome(user)
     @user = user
-   attachments['image1.jpg'] = File.read("/Users/manvendratripathi/Desktop/image1.jpg")
+   attachments[@user.image.photo_file_name] = File.read(@user.image.path) if @user.image.present?
     mail(
     to: user.email,
     subject: "Welcome to Ashok Estore:)"
