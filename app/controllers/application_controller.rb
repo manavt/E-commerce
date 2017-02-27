@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
     c.request.format.json? or c.request.format.xml?
   }
   before_action :authenticate_user
+  puts "Hello Ashok, I am here"
   def authenticate_user
     puts "--------------------------2"
    if session[:user_id].blank?
