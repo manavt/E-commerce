@@ -1,0 +1,13 @@
+index                 # display all the records
+
+new                   # holds a  form for new product onboard
+|
+create                # takes all the user input from new page and save the record into table
+
+edit                 # holds a  form for existing product
+|
+update                # takes all the user input from edit page and update the record into table
+
+show                # to display individual record
+
+destroy            #  deleting the existing object 

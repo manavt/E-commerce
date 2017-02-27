@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arrays type="array">
+  <array type="array">
+    <array>Jeans</array>
+    <array>Levis</array>
+    <array>Boot</array>
+    <array>200</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>Shoes</array>
+    <array>Nike</array>
+    <array>Sports</array>
+    <array>400</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>Scooter</array>
+    <array>Bajaj</array>
+    <array>Ligh Weight Vehicle</array>
+    <array>300</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>Pulser</array>
+    <array>Bajaj</array>
+    <array>afasdf</array>
+    <array>300</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>Bike</array>
+    <array>TVS</array>
+    <array>Apache</array>
+    <array>400</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE ASHOK</array>
+    <array>from hyderabad</array>
+    <array>sai temple</array>
+    <array>300</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE MANAV</array>
+    <array>Skylamp</array>
+    <array>lamp</array>
+    <array>400</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE ABC</array>
+    <array>abcdef</array>
+    <array>zxyz</array>
+    <array>200</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE IMAGE</array>
+    <array>Image</array>
+    <array>multiple</array>
+    <array>400</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE IMAGE2</array>
+    <array>image2</array>
+    <array>multiple</array>
+    <array>300</array>
+    <array type="array">
+      <array>/Users/manvendratripathi/Documents/morning-seesion/Ashok/estore/public/system/images/photos/000/000/002/original/image1.jpg</array>
+      <array>/Users/manvendratripathi/Documents/morning-seesion/Ashok/estore/public/system/images/photos/000/000/003/original/image2.jpg</array>
+    </array>
+  </array>
+  <array type="array">
+    <array>THE ASHOK</array>
+    <array>from hyderabad</array>
+    <array>sai temple</array>
+    <array>300</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE MANAV</array>
+    <array>Skylamp</array>
+    <array>lamp</array>
+    <array>400</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE ABC</array>
+    <array>abcdef</array>
+    <array>zxyz</array>
+    <array>200</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE IMAGE</array>
+    <array>Image</array>
+    <array>multiple</array>
+    <array>400</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE IMAGE2</array>
+    <array>image2</array>
+    <array>multiple</array>
+    <array>300</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>JEANS</array>
+    <array>Levis</array>
+    <array>Boot</array>
+    <array>200</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>SHOES</array>
+    <array>Nike</array>
+    <array>Sports</array>
+    <array>400</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>SCOOTER</array>
+    <array>Bajaj</array>
+    <array>Ligh Weight Vehicle</array>
+    <array>300</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>PULSER</array>
+    <array>Bajaj</array>
+    <array>afasdf</array>
+    <array>300</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>BIKE</array>
+    <array>TVS</array>
+    <array>Apache</array>
+    <array>400</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE ASHOK</array>
+    <array>from hyderabad</array>
+    <array>sai temple</array>
+    <array>300</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE MANAV</array>
+    <array>Skylamp</array>
+    <array>lamp</array>
+    <array>400</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE ABC</array>
+    <array>abcdef</array>
+    <array>zxyz</array>
+    <array>200</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE IMAGE</array>
+    <array>Image</array>
+    <array>multiple</array>
+    <array>400</array>
+    <array nil="true"/>
+  </array>
+  <array type="array">
+    <array>THE IMAGE2</array>
+    <array>image2</array>
+    <array>multiple</array>
+    <array>300</array>
+    <array nil="true"/>
+  </array>
+</arrays>

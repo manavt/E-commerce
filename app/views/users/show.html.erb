@@ -1,0 +1,12 @@
+<table class="table table-striped">
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Photo</th>
+  </tr>
+  <tr>
+    <td><%= @user.name %></td>
+    <td><%= @user.email %></td>
+    <td><%= image_tag @user.image.photo(:small) if !@user.image.blank?%></td>
+  </tr>
+</table>

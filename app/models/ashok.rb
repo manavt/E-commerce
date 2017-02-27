@@ -1,0 +1,2 @@
+class Ashok < ApplicationRecord
+end

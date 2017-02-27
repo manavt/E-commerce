@@ -1,0 +1,31 @@
+
+
+<!--%= form_for table_reference_object do | block_object |%-->
+<!--%= block_object.label :column_name%-->
+<!--%= block_object.text_field :column_name%-->
+<!--%end%-->
+<%= form_for @product do | f |%>
+<table>
+  <tr>
+    <td><%= f.label :name%></td>
+    <td><%= f.text_field :name%></td>
+  </tr>
+  <tr>
+    <td><%= f.label :brand%></td>
+    <td><%= f.text_field :brand%></td>
+  </tr>
+  <tr>
+    <td><%= f.label :product_type%></td>
+    <td><%= f.text_field :product_type%></td>
+  </tr>
+  <tr>
+    <td><%= f.label :price%></td>
+    <td><%= f.text_field :price%></td>
+  </tr>
+  <tr>
+    <td><%= f.submit "Save"%></td>
+  </tr>
+</table>
+<%end%>
+
+<%= link_to "Home", products_path%>

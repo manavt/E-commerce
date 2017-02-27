@@ -1,0 +1,20 @@
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Brand</th>
+    <th>Product Type</th>
+    <th>Price</th>
+
+    <tr>
+      <td><%= @product.name%></td>
+      <td><%= @product.brand%></td>
+      <td><%= @product.product_type%></td>
+      <td><%= @product.price%></td>
+      <td><%= link_to "Edit", edit_product_path(@product)%></td>
+      <td><%= link_to "Show", product_path(@product)%></td>
+      
+    </tr>
+
+  </tr>
+</table>
+<%= link_to "Products+", new_product_path%>
