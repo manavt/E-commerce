@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170220135105) do
+ActiveRecord::Schema.define(version: 20170301134350) do
 
   create_table "images", force: :cascade do |t|
     t.datetime "created_at",         null: false
@@ -37,8 +37,14 @@ ActiveRecord::Schema.define(version: 20170220135105) do
     t.string   "email"
     t.string   "password"
     t.string   "confirm_password"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
+    t.string   "provider"
+    t.string   "uid"
+    t.string   "user_image"
+    t.string   "token"
+    t.datetime "expires_at"
+    t.integer  "braintree_customer_id"
   end
 
 end

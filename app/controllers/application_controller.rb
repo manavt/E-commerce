@@ -10,4 +10,9 @@ class ApplicationController < ActionController::Base
       redirect_to new_user_path
    end
   end
+  def current_user
+    if not session[:user_id].blank?
+      user = User.find session[:user_id]
+    end
+  end
 end

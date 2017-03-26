@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-
+get "/auth/facebook/callback", to: "users#facebook"
+get "users/payment_form"
+post "users/make_payment"
 namespace :api do
   resources :products
 end
@@ -16,7 +18,7 @@ get "get_me/:name/myname", to: "users#index"
         get "my_name"
      end
    end
-   root "products#index"
+   root "users#sign_in"
    resources :products do
      collection do
        get "download_in_csv"

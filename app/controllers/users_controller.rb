@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  skip_before_action :authenticate_user, only: [:new, :create, :sign_in, :allow_login]
+  skip_before_action :authenticate_user, only: [:facebook, :new, :create, :sign_in, :allow_login]
   include DownloadFile
   def index
     name = params[:name]
@@ -40,8 +40,37 @@ class UsersController < ApplicationController
   def show
     @user = User.find params[:id]
   end
-
+  def make_payment
+    @product=Product.find(params[:product_id])
+    @result = Braintree::Transaction.sale(
+    :amount => @product.price,
+    :credit_card => {
+      :number => params[:credit_card_number],
+      :expiration_date => params[:date]["expires_at(2i)"] + "/"  + params[:date]["expires_at(1i)"]
+    },
+    :options=> {
+                    store_in_vault: true,
+                    :submit_for_settlement => true
+                  })
+  if @result.success?
+  current_user.update({braintree_customer_id: @result.transaction.customer_details.id})
+  redirect_to products_path
+  flash[:notice] = "Congraulations! Your transaction has been successfully!"
+  else
+  redirect_to products_path
+  flash[:notice]  = "Transaction failed"
+  end
+end
   def edit
+  end
+  def facebook
+    user = User.omniauth(env['omniauth.auth'])
+    if user
+        session[:user_id] = user.id
+        redirect_to products_path
+      else
+        redirect_to root_path
+    end
   end
   def logout
     session[:user_id] = nil
